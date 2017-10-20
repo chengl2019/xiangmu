@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+body,
+html {
+  background-image: url(../img/怕.jpg);
+  width: 100%;
+  height: 90%;
+  background-size: 100% 100%; }
+
+header {
+  background: white;
+  display: flex; }
+  header ul {
+    display: flex;
+    width: 3.75rem;
+    height: 0.51rem; }
+    header ul li {
+      margin-top: 0.08rem;
+      margin-left: 0.09rem; }
+      header ul li img {
+        width: 1.07rem;
+        height: 0.36rem; }
+      header ul li p {
+        font-size: 0.11rem; }
+    header ul li:nth-child(2) {
+      margin-left: 0.235rem;
+      line-height: 0.45rem; }
+      header ul li:nth-child(2) span {
+        font-size: 0.18rem;
+        color: #000; }
+    header ul li:nth-child(3) {
+      margin-left: 0.84rem;
+      text-align: center; }
+    header ul li:nth-child(4) {
+      margin-left: 0.150rem;
+      text-align: center; }
+  header .icon-user {
+    font-size: 0.165rem;
+    color: #999999; }
+  header .icon-nav {
+    font-size: 0.165rem;
+    color: #999999; }
+
+.bb {
+  width: 100%;
+  height: 2.22rem;
+  background-color: rgba(0, 0, 0, 0.75); }
+
+.pl {
+  width: 100%;
+  height: 1.49rem;
+  background: #F4F4F4; }
+  .pl ul:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+    width: 100%; }
+    .pl ul:nth-child(1) li:nth-child(1) {
+      text-align: center;
+      width: 0.66rem;
+      height: 0.3rem;
+      border-radius: 5px;
+      background: #CCCCCC;
+      line-height: 0.3rem; }
+      .pl ul:nth-child(1) li:nth-child(1) span {
+        text-align: center;
+        font-size: 0.14rem;
+        color: #000000; }
+    .pl ul:nth-child(1) li:nth-child(2) span {
+      font-size: 0.18rem; }
+    .pl ul:nth-child(1) li:nth-child(3) {
+      text-align: center;
+      width: 0.66rem;
+      height: 0.3rem;
+      border-radius: 5px;
+      background: #39C893;
+      line-height: 0.3rem;
+      text-align: center;
+      font-size: 0.14rem;
+      color: white; }
+  .pl ul:nth-child(2) {
+    width: 3.59rem;
+    height: 0.825rem;
+    margin-left: 0.10rem;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background: white; }
+    .pl ul:nth-child(2) li {
+      margin-left: 0.05rem;
+      margin-top: 0.10rem;
+      width: 0.03rem;
+      height: 0.20rem;
+      background: #2BB381; }
+
+.jianpan {
+  width: 100%; }
+  .jianpan img {
+    width: 100%; }
+
+/*# sourceMappingURL=index19.css.map */

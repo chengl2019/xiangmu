@@ -1,0 +1,92 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body,html{
+    background-image:url(../img/怕.jpg);
+    width: 100%;
+    height: 90%;
+    background-size: 100% 100%;
+}
+//头部部分
+header {
+    background: white;
+    display: flex;
+    ul {
+        display: flex;
+        width: 3.75rem;
+        height: 0.51rem;
+        li {
+            margin-top: 0.08rem;
+            margin-left: 0.09rem;
+            img {
+                width: 1.07rem;
+                height: 0.36rem;
+            }
+            p {
+                font-size: 0.11rem;
+            }
+        }
+        li:nth-child(2) {
+            margin-left: 0.235rem;
+            line-height: 0.45rem;
+            span {
+                font-size: 0.18rem;
+                color: #000;
+            }
+        }
+        li:nth-child(3) {
+            margin-left: 0.84rem;
+            text-align: center;
+        }
+        li:nth-child(4) {
+            margin-left: 0.150rem;
+            text-align: center;
+        }
+    }
+    .icon-user {
+        font-size: 0.165rem;
+        color: #999999;
+    }
+    .icon-nav {
+        font-size: 0.165rem;
+        color: #999999;
+    }
+}
+.bb{
+    width: 100%;
+    height: 2.22rem;
+    background-color: rgba(0,0,0,0.75);
+}
+.pl{
+    width: 100%;
+    height: 1.49rem;
+    background: #F4F4F4;
+    ul{
+        li{
+            padding-top: 0.5rem;
+            text-align: center;
+            span{
+                font-size: 0.18rem;
+                color: #333333;
+                o{
+                   color: #3DC994; 
+                }
+            }
+            p{
+                font-size: 0.18rem;
+                color: #333333;
+            }
+        }
+    }
+    
+}
+.jianpan{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}

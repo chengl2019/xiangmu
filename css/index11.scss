@@ -1,0 +1,205 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+//头部部分
+header {
+    background: white;
+    display: flex;
+    ul {
+        display: flex;
+        width: 3.75rem;
+        height: 0.51rem;
+        li {
+            margin-top: 0.08rem;
+            margin-left: 0.09rem;
+            img {
+                width: 1.07rem;
+                height: 0.36rem;
+            }
+            p {
+                font-size: 0.11rem;
+            }
+        }
+        li:nth-child(2) {
+            margin-left: 0.235rem;
+            line-height: 0.45rem;
+            span {
+                font-size: 0.18rem;
+                color: #000;
+            }
+        }
+        li:nth-child(3) {
+            margin-left: 0.84rem;
+            text-align: center;
+            //          margin-left: 1.8rem;
+        }
+        li:nth-child(4) {
+            margin-left: 0.150rem;
+            text-align: center;
+        }
+    }
+    .icon-user {
+        font-size: 0.165rem;
+        color: #999999;
+    }
+    .icon-nav {
+        font-size: 0.165rem;
+        color: #999999;
+    }
+}
+
+.cx {
+    width: 3.75rem;
+    margin-top: 0.20rem;
+    border-bottom: 1px solid #EFEFEF;
+    ul:nth-child(1) {
+        margin-top: 0.10rem;
+        margin-left: 0.1rem;
+        background: white;
+        li:nth-child(1) {
+            margin-right: 0.14rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    ul:nth-child(2) {
+        display: flex;
+        li:nth-child(1) {
+            margin-left: 0.14rem;
+            margin-top: 0.14rem;
+            span {
+                font-size: 0.18rem;
+                color: #000;
+            }
+            p {
+                span {
+                    font-size: 0.14rem;
+                    color: #969896;
+                }
+                o {
+                    font-size: 0.14rem;
+                    color: crimson;
+                }
+            }
+        }
+        li:nth-child(2) {
+            width: 1.06rem;
+            margin-bottom: 0.10rem;
+            height: 0.395rem;
+            background: #FF4450;
+            margin-top: 0.17rem;
+            margin-left: 0.59rem;
+            border-radius: 25px 0px 0px 25px;
+            text-align: center;
+            line-height: 0.395rem;
+            span {
+                font-size: 0.14rem;
+                color: white;
+            }
+        }
+    }
+}
+
+.wenban {
+    width: 3.75rem;
+    ul {
+        margin-top: 0.18rem;
+        margin-bottom: 0.18rem;
+        li {
+            margin-left: 0.11rem;
+            margin-right: 0.11rem;
+            text-indent: 0.3rem; //首行缩进
+            span {
+                font-size: 0.14rem;
+                color: #333;
+            }
+        }
+    }
+}
+
+.bq {
+    div {
+        width: 100%;
+        text-align: center;
+        span {
+            width: 100%;
+            text-align: center;
+            font-size: 0.14rem;
+            text-indent: 2rem; //首行缩进
+        }
+        a {
+            font-size: 0.015rem;
+            color: #38C993;
+        }
+    }
+    ul {
+        width: 100%;
+        margin-top: 0.1rem;
+        display: flex;
+        justify-content: space-around;
+        li {
+            font-size: 0.14rem;
+        }
+        li:nth-child(1) {
+            color: #38C993;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 0.53rem;
+    background: #000;
+    display: flex;
+    div:nth-child(1) {
+        img {
+            width: 0.20rem;
+        }
+    }
+    div:nth-child(2) {
+        margin-top: 0.050rem;
+        margin-left: 0.050rem;
+        img {
+            width: 2.105rem;
+            height: 0.445rem;
+        }
+    }
+    div:nth-child(3) {
+        button {
+            width: 0.90rem;
+            height: 0.30rem;
+            border-radius: 50px;
+            background: #FEB605;
+            font-size: 0.02rem;
+            border: 1px solid #FEB605;
+            color: white;
+            margin-left: 0.2rem;
+            margin-top: 0.10rem;
+        }
+    }
+}
+
+.ddb {
+    width: 0.47rem;
+    height: 0.47rem;
+    border: 1px solid #9c9c9c;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+    left: 3.15rem;
+    top: 85%;
+    background: white;
+    z-index: 2000;
+    a {
+        text-align: center;
+        width: 0.2rem;
+        color: #9c9c9c;
+        line-height: 0.47rem;
+    }
+}

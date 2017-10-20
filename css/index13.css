@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+header {
+  background: white;
+  display: flex; }
+  header ul {
+    display: flex;
+    width: 3.75rem;
+    height: 0.51rem; }
+    header ul li {
+      margin-top: 0.08rem;
+      margin-left: 0.09rem; }
+      header ul li img {
+        width: 1.07rem;
+        height: 0.36rem; }
+      header ul li p {
+        font-size: 0.11rem; }
+    header ul li:nth-child(2) {
+      margin-left: 0.235rem;
+      line-height: 0.45rem; }
+      header ul li:nth-child(2) span {
+        font-size: 0.18rem;
+        color: #000; }
+    header ul li:nth-child(3) {
+      margin-left: 0.84rem;
+      text-align: center; }
+    header ul li:nth-child(4) {
+      margin-left: 0.150rem;
+      text-align: center; }
+  header .icon-user {
+    font-size: 0.165rem;
+    color: #999999; }
+  header .icon-nav {
+    font-size: 0.165rem;
+    color: #999999; }
+
+.x1 {
+  width: 100%;
+  height: 0.09rem;
+  background: #F4F4F4;
+  margin-bottom: 0.15rem; }
+
+.wenban {
+  width: 3.75rem; }
+  .wenban ul {
+    margin-top: 0.18rem;
+    margin-bottom: 0.18rem; }
+    .wenban ul li {
+      margin-left: 0.11rem;
+      margin-right: 0.11rem;
+      text-indent: 0.3rem; }
+      .wenban ul li span {
+        font-size: 0.14rem;
+        color: #333; }
+
+.bq div {
+  width: 100%;
+  text-align: center; }
+  .bq div span {
+    width: 100%;
+    text-align: center;
+    font-size: 0.14rem;
+    text-indent: 2rem; }
+  .bq div a {
+    font-size: 0.015rem;
+    color: #38C993; }
+.bq ul {
+  width: 100%;
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: space-around; }
+  .bq ul li {
+    font-size: 0.14rem; }
+  .bq ul li:nth-child(1) {
+    color: #38C993; }
+
+.xx {
+  width: 3.75rem;
+  height: 1.1rem; }
+  .xx ul:nth-child(1) {
+    margin-top: 0.2rem;
+    display: flex; }
+    .xx ul:nth-child(1) li:nth-child(1) img {
+      width: 1.4rem;
+      height: 0.975rem;
+      margin-left: 0.08rem; }
+    .xx ul:nth-child(1) li:nth-child(2) {
+      margin-left: 0.1rem; }
+      .xx ul:nth-child(1) li:nth-child(2) p:nth-child(1) span {
+        font-size: 0.18rem;
+        color: #000; }
+      .xx ul:nth-child(1) li:nth-child(2) p:nth-child(2) {
+        font-size: 0.14rem;
+        color: #999; }
+        .xx ul:nth-child(1) li:nth-child(2) p:nth-child(2) o:nth-child(2) {
+          color: red; }
+      .xx ul:nth-child(1) li:nth-child(2) p:nth-child(3) {
+        font-size: 0.14rem;
+        color: #999; }
+        .xx ul:nth-child(1) li:nth-child(2) p:nth-child(3) o:nth-child(2) {
+          color: #404040; }
+      .xx ul:nth-child(1) li:nth-child(2) p:nth-child(4) {
+        font-size: 0.14rem;
+        color: #999; }
+        .xx ul:nth-child(1) li:nth-child(2) p:nth-child(4) o:nth-child(2) {
+          color: red; }
+  .xx ul:nth-child(2) {
+    margin-left: 0.10rem;
+    margin-right: 0.10rem;
+    margin-top: 0.08rem; }
+    .xx ul:nth-child(2) li {
+      font-size: 0.1rem;
+      color: #181818; }
+
+.x1f {
+  width: 100%;
+  height: 0.09rem;
+  background: #F4F4F4;
+  margin-top: 0.40rem;
+  margin-bottom: 0.15rem; }
+
+.an ul {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding-left: 0.18rem;
+  padding-right: 0.18rem;
+  border-bottom: 2px solid #EFEFEF; }
+  .an ul li {
+    text-align: center;
+    width: 1.195rem;
+    height: 0.357rem;
+    font-size: 0.14rem; }
+  .an ul li:nth-child(1) {
+    border-bottom: 0.025rem solid #60D3A8; }
+
+footer {
+  width: 100%;
+  height: 0.53rem;
+  background: #FE6A73;
+  text-align: center;
+  display: flex; }
+  footer div {
+    margin-left: 35%;
+    color: white;
+    display: flex;
+    text-align: center; }
+    footer div .icon-design {
+      font-size: 0.28rem;
+      line-height: 0.53rem; }
+    footer div span {
+      line-height: 0.53rem;
+      font-size: 0.18rem; }
+
+.bg {
+  margin-left: 0.18rem;
+  margin-right: 0.18rem; }
+  .bg table {
+    border: 1px solid #dcdcdc;
+    border-left: none;
+    border-right: none; }
+    .bg table tr {
+      width: 3rem;
+      height: 0.29rem; }
+      .bg table tr th {
+        width: 0.985rem;
+        color: #2BB381;
+        font-size: 0.1rem; }
+    .bg table tr {
+      width: 3rem;
+      height: 0.29rem; }
+      .bg table tr td:nth-child(1) {
+        font-size: 0.1rem;
+        color: #999; }
+      .bg table tr td:nth-child(2) {
+        width: 0.77rem;
+        color: #999; }
+      .bg table tr td:nth-child(3) {
+        width: 1.775rem;
+        color: #999; }
+
+.ann {
+  width: 3.75rem; }
+  .ann ul {
+    display: flex;
+    margin-top: 0.14rem;
+    margin-bottom: 0.14rem; }
+    .ann ul li:nth-child(1) {
+      display: flex;
+      margin-left: 0.2rem; }
+      .ann ul li:nth-child(1) span {
+        display: flex;
+        height: 0.27rem;
+        width: 0.59rem;
+        color: white;
+        padding-left: 0.1rem;
+        margin-right: 0.1rem;
+        text-align: center;
+        background: #2BB381;
+        line-height: 0.27rem;
+        border-radius: 50px;
+        font-size: 0.14rem; }
+    .ann ul li:nth-child(2) {
+      display: flex; }
+      .ann ul li:nth-child(2) span {
+        display: flex;
+        height: 0.27rem;
+        width: 0.585rem;
+        color: #2BB381;
+        border: 1px solid #2BB381;
+        padding-left: 0.1rem;
+        margin-right: 0.1rem;
+        text-align: center;
+        line-height: 0.27rem;
+        border-radius: 50px;
+        font-size: 0.14rem; }
+    .ann ul li:nth-child(3) {
+      display: flex; }
+      .ann ul li:nth-child(3) span {
+        display: flex;
+        height: 0.27rem;
+        width: 0.585rem;
+        color: #2BB381;
+        border: 1px solid #2BB381;
+        padding-left: 0.1rem;
+        margin-right: 0.1rem;
+        text-align: center;
+        line-height: 0.27rem;
+        border-radius: 50px;
+        font-size: 0.14rem; }
+    .ann ul li:nth-child(4) {
+      display: flex; }
+      .ann ul li:nth-child(4) span {
+        display: flex;
+        height: 0.27rem;
+        width: 1.275rem;
+        color: #2BB381;
+        border: 1px solid #2BB381;
+        padding-left: 0.1rem;
+        margin-right: 0.1rem;
+        text-align: center;
+        line-height: 0.27rem;
+        border-radius: 50px;
+        font-size: 0.14rem; }
+
+footer {
+  width: 100%;
+  height: 0.53rem;
+  background: #FE6A73;
+  text-align: center;
+  display: flex; }
+  footer div {
+    margin-left: 35%;
+    color: white;
+    display: flex;
+    text-align: center; }
+    footer div .icon-pencle {
+      font-size: 0.28rem;
+      line-height: 0.53rem; }
+    footer div span {
+      margin-left: 0.05rem;
+      line-height: 0.53rem;
+      font-size: 0.18rem; }
+
+/*# sourceMappingURL=index13.css.map */

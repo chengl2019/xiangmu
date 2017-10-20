@@ -1,0 +1,205 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-image: url(../img/内网通截图20171018213521.png);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+//头部部分
+header {
+    background: white;
+    display: flex;
+    ul {
+        display: flex;
+        width: 3.75rem;
+        height: 0.51rem;
+        li {
+            margin-top: 0.08rem;
+            margin-left: 0.09rem;
+            img {
+                width: 1.07rem;
+                height: 0.36rem;
+            }
+            p {
+                font-size: 0.11rem;
+            }
+        }
+        li:nth-child(2) {
+            margin-left: 0.235rem;
+            line-height: 0.45rem;
+            span {
+                font-size: 0.18rem;
+                color: #000;
+            }
+        }
+        li:nth-child(3) {
+            margin-left: 0.84rem;
+            text-align: center;
+        }
+        li:nth-child(4) {
+            margin-left: 0.150rem;
+            text-align: center;
+        }
+    }
+    .icon-user {
+        font-size: 0.165rem;
+        color: #999999;
+    }
+    .icon-nav {
+        font-size: 0.165rem;
+        color: #999999;
+    }
+}
+
+.dj {
+    width: 3.75rem;
+    height: 0.5rem;
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+    ul {
+        display: flex;
+        height: 0.5rem;
+        li {
+            line-height: 0.5rem;
+            width: 0.965rem;
+            background: white;
+            text-align: center;
+            span {
+                font-size: 0.18rem;
+                margin-left: 0.115rem;
+                color: #000;
+            }
+            i {
+                width: 0.125rem;
+                height: 0.075rem;
+                color: #999;
+            }
+        }
+        li:nth-child(4) {
+            i {
+                font-size: 0.20rem;
+                color: #2BB381;
+            }
+        }
+    }
+}
+
+.nr {
+    width: 3.75rem;
+    height: 2.925rem;
+    background: #F4F4F4;
+}
+
+.bv {
+    width: 3.75rem;
+    height: 0.35rem;
+    background: #2BB381;
+    color: white;
+    text-align: center;
+    line-height: 0.38rem;
+    font-size: 0.18rem;
+}
+
+.tbbj {
+    width: 3.75rem;
+    height: 2.35rem;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.nr {
+    width: 3.75rem;
+    ul:nth-child(1) {
+        span {
+            font-size: 0.14rem;
+            color: #000;
+            margin-left: 0.10rem;
+        }
+        li:nth-child(2) {
+            button:nth-child(1) {
+                margin-top: 0.15rem;
+                margin-left: 0.08rem;
+                width: 1.16rem;
+                height: 0.29rem;
+                font-size: 0.14rem;
+                color: #999;
+                background: white;
+                border: 1px solid #2BB381;
+                color: #2BB381;
+            }
+            button {
+                margin-top: 0.15rem;
+                margin-left: 0.03rem;
+                width: 1.16rem;
+                height: 0.29rem;
+                background: white;
+                font-size: 0.14rem;
+                border: 1px solid #EEEEEE;
+                color: #999;
+            }
+        }
+        li:nth-child(3) {
+            button {
+                margin-top: 0.15rem;
+                margin-left: 0.08rem;
+                width: 1.16rem;
+                height: 0.29rem;
+                background: white;
+                font-size: 0.14rem;
+                border: 1px solid #EEEEEE;
+                color: #999;
+            }
+        }
+    }
+    ul:nth-child(2) {
+        margin-top: 0.14rem;
+        span {
+            font-size: 0.14rem;
+            color: #000;
+            margin-left: 0.10rem;
+        }
+        li:nth-child(2) {
+            button:nth-child(1) {
+                margin-top: 0.15rem;
+                margin-left: 0.08rem;
+                width: 1.16rem;
+                height: 0.29rem;
+                font-size: 0.14rem;
+                color: #999;
+                background: white;
+                border: 1px solid #2BB381;
+                color: #2BB381;
+            }
+            button {
+                margin-top: 0.15rem;
+                margin-left: 0.03rem;
+                width: 1.16rem;
+                height: 0.29rem;
+                background: white;
+                font-size: 0.14rem;
+                border: 1px solid #EEEEEE;
+                color: #999;
+            }
+        }
+        li:nth-child(3) {
+            button {
+                margin-top: 0.15rem;
+                margin-left: 0.08rem;
+                width: 1.16rem;
+                height: 0.29rem;
+                background: white;
+                font-size: 0.14rem;
+                border: 1px solid #EEEEEE;
+                color: #999;
+            }
+        }
+    }
+}
